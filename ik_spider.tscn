@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6ikspdr8bod1"]
+
+[ext_resource type="Script" path="res://ik_spider.gd" id="1_spdr"]
+
+[node name="IKSpider" type="Node3D"]
+script = ExtResource("1_spdr")

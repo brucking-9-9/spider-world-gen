@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://4f02uj3cwboj"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_8x6pe"]
+size = Vector3(0.2, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_4dyyr"]
+
+[node name="spider" type="Node3D" unique_id=616512712]
+
+[node name="mainbody" type="Node3D" parent="." unique_id=674368847]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="mainbody" unique_id=1711712924]
+mesh = SubResource("BoxMesh_8x6pe")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="mainbody" unique_id=263728818]
+mesh = SubResource("BoxMesh_8x6pe")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="mainbody" unique_id=212946702]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.0109596)
+mesh = SubResource("BoxMesh_4dyyr")

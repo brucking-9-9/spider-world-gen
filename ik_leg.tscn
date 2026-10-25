@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c6ikleg2seg0a"]
+
+[ext_resource type="Script" uid="uid://bqt6xhsgbfqvo" path="res://ik_leg.gd" id="1_leg"]
+
+[node name="IKLeg" type="Node3D" unique_id=12810076]
+script = ExtResource("1_leg")
+leg_color = Color(0.9199655, 0.9026877, 0.89585316, 1)
